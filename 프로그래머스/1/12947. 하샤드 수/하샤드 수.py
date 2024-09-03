@@ -1,4 +1,4 @@
 def solution(x):
-    sumnumber = sum(int(i) for i in str(x))
+    sum_number = sum(int(i) for i in str(x))
     
-    return x %sumnumber ==0
+    return x %sum_number ==0
