@@ -1,4 +1,4 @@
 def solution(numbers):
     total =45
-    answer=45-sum(numbers)
+    answer=total-sum(numbers)
     return answer
